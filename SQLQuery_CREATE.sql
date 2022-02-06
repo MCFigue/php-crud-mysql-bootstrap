@@ -1,0 +1,6 @@
+CREATE DATABASE php_mysql_crud
+CREATE TABLE task(
+	Id  int AUTO_INCREMENT NOT NULL primary Key,
+	title VARCHAR(50) NULL,
+	description VARCHAR(50) NULL,
+	create_at DATETIME DEFAULT CURRENT_TIMESTAMP NULL);
